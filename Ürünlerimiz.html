@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ürünlerimiz</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-height: 100vh;
+      }
+
+      .container {
+        margin: 10px auto;
+      }
+      .header {
+        text-align: center;
+        color: red;
+        font-size: 30px;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .navbar {
+        text-align: center;
+        color: red;
+        font-size: 15px;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .container-stuffs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+      }
+
+      .stuffs {
+        color: rgb(135, 1, 64);
+        font-size: 30px;
+      }
+
+      .guitar,
+      .violin,
+      .drum,
+      .piano,
+      .violin {
+        margin: 10px auto;
+      }
+
+      .guitar-introduce,
+      .drum-introduce,
+      .piano-introduce,
+      .violin-introduce {
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <strong>MÜZİK DÜKKANIM</strong>
+      </div>
+
+      <p class="navbar">
+        <a href="index.html">Ana Sayfa</a> &nbsp;
+        <a href="Ürünlerimiz.html">Ürünlerimiz</a> &nbsp;
+        <a href="Hakkımızda.html">Hakkımızda</a>
+      </p>
+      <div class="container-stuffs">
+        <p class="stuffs">
+          <strong>ÜRÜNLERİM</strong>
+        </p>
+
+        <p>
+          <img src="img/gitar.jpg" width="300" height="250" class="guitar" />
+          <br />
+          <strong class="guitar-introduce"
+            >Yamaha C70 Classic Guitar - 10.000₺</strong
+          >
+        </p>
+
+        <p>
+          <img src="img/bateri.jpg" width="300" height="250" class="drum" />
+          <br />
+          <strong class="drum-introduce"
+            >Yamaha RDP0F5 Rydeen 20 - 20.000₺</strong
+          >
+        </p>
+
+        <p>
+          <img src="img/piyano.jpg" width="300" height="250" class="piano" />
+          <br />
+          <strong class="piano-introduce"
+            >Yamaha ARIUS YDP-105R Piano - 30.000₺</strong
+          >
+        </p>
+
+        <p>
+          <img src="img/keman.jpg" width="300" height="250" class="violin" />
+          <br />
+          <strong class="violin-introduce">Yamaha V5SA Keman - 15.000₺</strong>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
